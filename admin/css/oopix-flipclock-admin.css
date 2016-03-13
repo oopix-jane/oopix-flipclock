@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/**
+ * Other Styling
+ */
+ fieldset {
+ 	margin-bottom: 1em;
+ }
+ span.option-title, p.option-title {
+ 	font-weight: bold;
+ }
+ p.option-title {
+ 	text-transform: uppercase;
+ }
+ span.option-title {
+ 	margin-right: 2px;
+ }
+ #opfc-admin-shortcode {
+ 	border: 1px solid black;
+ 	margin: 1em 0 0;
+ 	padding: 1em;
+ }
+ #opfc-admin-shortcode.opfc-half-width {
+ 	width: 50%;
+ }
+ @media ( max-width:767px ) {
+ 	#opfc-admin-shortcode.opfc-half-width {
+ 		width: 90%;
+ 	}
+ }
+ p#opfc-shortcode-display {
+ 	font-weight: bold;
+ }
